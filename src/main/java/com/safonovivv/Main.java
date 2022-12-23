@@ -22,7 +22,7 @@ public class Main {
 
         //Работаем с массивом
         int i;
-        Scanner input = new Scanner(System.in); // надо уточнить зачем нужен сканер
+        Scanner input = new Scanner(System.in); // Надо узнать, можно ли вводить без сканера
         System.out.println("задайте длинну массива: ");
         int size = input.nextInt();
         int[] array = new int[size];
